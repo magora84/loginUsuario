@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lnkRecordarContra = new System.Windows.Forms.LinkLabel();
-            this.lnkRegistrar = new System.Windows.Forms.LinkLabel();
             this.Btnenviar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -37,28 +35,6 @@
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.txtUser = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // lnkRecordarContra
-            // 
-            this.lnkRecordarContra.AutoSize = true;
-            this.lnkRecordarContra.Location = new System.Drawing.Point(132, 212);
-            this.lnkRecordarContra.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lnkRecordarContra.Name = "lnkRecordarContra";
-            this.lnkRecordarContra.Size = new System.Drawing.Size(107, 13);
-            this.lnkRecordarContra.TabIndex = 15;
-            this.lnkRecordarContra.TabStop = true;
-            this.lnkRecordarContra.Text = "Olvide mi Contraseña";
-            // 
-            // lnkRegistrar
-            // 
-            this.lnkRegistrar.AutoSize = true;
-            this.lnkRegistrar.Location = new System.Drawing.Point(60, 212);
-            this.lnkRegistrar.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lnkRegistrar.Name = "lnkRegistrar";
-            this.lnkRegistrar.Size = new System.Drawing.Size(60, 13);
-            this.lnkRegistrar.TabIndex = 14;
-            this.lnkRegistrar.TabStop = true;
-            this.lnkRegistrar.Text = "Registrarse";
             // 
             // Btnenviar
             // 
@@ -119,13 +95,11 @@
             this.txtUser.Size = new System.Drawing.Size(107, 20);
             this.txtUser.TabIndex = 8;
             // 
-            // Form1
+            // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.lnkRecordarContra);
-            this.Controls.Add(this.lnkRegistrar);
+            this.ClientSize = new System.Drawing.Size(306, 271);
             this.Controls.Add(this.Btnenviar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -133,7 +107,7 @@
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUser);
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "FrmLogin";
             this.Text = "Iniciar Sesion";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -141,9 +115,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.LinkLabel lnkRecordarContra;
-        private System.Windows.Forms.LinkLabel lnkRegistrar;
         private System.Windows.Forms.Button Btnenviar;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
