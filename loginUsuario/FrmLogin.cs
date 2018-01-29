@@ -34,7 +34,12 @@ namespace loginUsuario
                 Usuarios existe = Usuarios.CheckLogin(usuario, password);
                 if (existe != null)
                 {
-                    MessageBox.Show(existe.Nombre);
+                    // MessageBox.Show(existe.Nombre);
+                    
+                    FrmPrincipal principal = new FrmPrincipal();
+                    
+                    Hide();
+                    principal.Show();
                 }
                 else
                 {

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using loginUsuario.frmUsuario;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,15 @@ namespace loginUsuario
         public FrmPrincipal()
         {
             InitializeComponent();
+            FrmUsuarioMostrar perfil = new FrmUsuarioMostrar();
+            perfil.MdiParent = this;
+            perfil.Show();
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+           
         }
     }
 }
